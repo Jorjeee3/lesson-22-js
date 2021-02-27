@@ -89,15 +89,15 @@
 // --------------------------------------TASK-4------------------------------------------------
 
 
-// const FiveDigitNumber = prompt("Enter the Five-digit number");
-//     let num = FiveDigitNumber;
-// if (num [0] === num [4] && num [1] == num [3])   
-// {
-//     console.log("this number is palindrome");
-// } else
-// {
-//     console.log("this number is not palindrome");
-// }
+const FiveDigitNumber = prompt("Enter the Five-digit number");
+    let num = FiveDigitNumber;
+if (num [0] === num [4] && num [1] == num [3])   
+{
+    console.log("this number is palindrome");
+} else
+{
+    console.log("this number is not palindrome");
+}
 
 
 // --------------------------------------TASK-5------------------------------------------------
@@ -120,30 +120,30 @@ switch(currency) {
 
 // --------------------------------------TASK-6------------------------------------------------
 
-// const sum = parseInt(prompt("Enter purchase amount"));
+const sum = parseInt(prompt("Enter purchase amount"));
 
 
 
-// if (sum < 200) {
+if (sum < 200) {
 
-//     console.log("You have no discount");
-//     console.log("You have saved", sum);
+    console.log("You have no discount");
+    console.log("You have saved", sum);
 
-// } else if (sum >= 200 || sum <= 300) {
+} else if (sum >= 200 || sum <= 300) {
 
-//     console.log("You have a discount");
-//     console.log("You have saved", sum * 3 / 100, "USD");
+    console.log("You have a discount");
+    console.log("You have saved", sum * 3 / 100, "USD");
 
-// } else if (sum > 300 || sum <= 500) {
+} else if (sum > 300 || sum <= 500) {
     
-//     console.log("You have a discount");
-//     console.log("You have saved", sum * 5 / 100, "USD");
+    console.log("You have a discount");
+    console.log("You have saved", sum * 5 / 100, "USD");
 
-// } else {
+} else {
 
-//     console.log("You have a discount");
-//     console.log("You have saved", sum * 7 / 100, "USD");
-// }
+    console.log("You have a discount");
+    console.log("You have saved", sum * 7 / 100, "USD");
+}
     
 
 // --------------------------------------TASK-7------------------------------------------------
